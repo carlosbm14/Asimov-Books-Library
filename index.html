@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Library CRUD App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Isaac Asimov Book Library</h1>
+
+  <!-- Form to Add or Edit Books -->
+  <div id="form-container">
+    <h2>Add a Book</h2>
+    <form id="book-form">
+      <input type="text" id="title" placeholder="Title" required>
+      <input type="text" id="author" placeholder="Author" required>
+      <input type="number" id="pages" placeholder="Number of Pages" required>
+      <input type="number" id="year" placeholder="Year Published" required>
+      <input type="number" id="price" placeholder="Price" required>
+      <input type="url" id="image-url" placeholder="Image URL" required>
+      <button id="add" type="submit">Add Book</button>
+    </form>
+  </div>
+
+  <!-- Book List -->
+  <div id="book-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

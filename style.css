@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  #form-container {
+    margin-bottom: 20px;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  #book-form input {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  #book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  
+.book-card {
+    width: 180px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    background: #fff;
+  }
+
+  .book-card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .book-details {
+    margin-top: 10px;
+  }
+
+  .book-actions button {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    color: #fff;
+    background: #333;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .book-actions button.edit {
+    background: #007bff;
+  }
+  
+  .book-actions button.delete {
+    background: #dc3545;
+  }
+
+    #add {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    color: #fff;
+    background: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #007bff;
+  }
